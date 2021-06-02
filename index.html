@@ -4,127 +4,130 @@
  <html lang+"pt-br">
 
  <head>
-	<title> Art Gallery_Home</title 
-
+	<title> Art Gallery_Home</title
 	<meta charset=utf-8">
 	<meta name= "Viewport" content ='widht=device-width, initial-scale=1'>
-	<link rel = "stylesheet" href ="style.css" type="text/css" >
-<style>
-* {
-			dimensionamento da caixa : caixa de borda;
+	
+		<style>
+	* {
+			box-sizing: border-box;
 		}
 		
-		corpo {
-			preenchimento :  8 px ;
-			fonte : Garamond , Garamond , sans-serif;
-			fundo : # ddd
+		body{
+			padding: 8px;
+			font:Garamond, Garamond, sans-serif;
+			background:#ddd
 
 		}
 		
-		header {
-			alinhamento de texto : centro;
-			cor de fundo :  rgb ( 255 ,  117 ,  26 );
-			preenchimento :  30 px ;
+		header{
+			text-align: center;
+			background-color: rgb(255, 117, 26);
+			padding: 30px;
 		}
 			
 		
-		cabeçalho  h1 {
-		tamanho da fonte :  50 px ;
-		cor : branco;
+		header h1{
+		font-size: 50px;
+		color: white;
 		}
 		
-		nav  ul {
-			tipo de estilo de lista : nenhum;
-			fundo : preto;
-			estouro : oculto;
-			margem : 0 ;
-			preenchimento : 0 ;
-			transição : cor de fundo 2 s ;
+		nav ul {
+			list-style-type:none;
+			background: black;
+			overflow:hidden;
+			margin:0;
+			padding:0;
+			transition: background-color 2s;
 		}
 		
-		nav 	 a {
-			cor : branco;
-			decoração de texto : nenhum;
-			preenchimento :  16 px ;
-			display : bloco;
-			transição : cor de fundo 1,5 s ;
-			widht :  100 % ;
+		nav	 a{
+			color: white;
+			text-decoration:none;
+			padding: 16px;
+			display:block;
+			transition:background-color 1.5s;
+			widht: 100%;
 
 
 			}
-		nav  dt {
-			flutuar : esquerda;
+		nav dt {
+			float: left;
 		}
 				
-		nav  li {
-			flutuar : certo;
+		nav li {
+			float: right;
 		}
 			
-		nav  a : hover {
-			cor de fundo : branco;
-			cor : rgb ( 255 ,  117 ,  26 );
+		nav a:hover{
+			background-color: white;
+			color:rgb(255, 117, 26); 
 			}
 			
 
-		. linha {
-			display : mesa;
+		.row{
+			display:table;
 			
 		}		
 			
 
 
-		rodapé {
-		preenchimento : 20 px ;
-		fundo : preto;
-		cor : branco;
-		margem superior :  20 px ;
-		display : mesa;
-		largura :  100 % ;
+		footer {
+		padding:20px;
+		background:black;
+		color: white;
+		margin-top: 20px;
+		display: table;
+		width: 100%;
 		}
 		
-		footer  dl {
-			display : table-cell;
+		footer dl{
+			display: table-cell;
 			}
 
-		footer  dt {
-			peso da fonte : negrito;
+		footer dt{
+			font-weight: bold;
 		}
 		
-		rodapé  dd {
-			margem esquerda : 0 ;
+		footer dd{
+			margin-left:0;
 			}
 			
-		rodapé  p {
-			alinhamento de texto : direita;
-			peso da fonte : negrito;
-			tamanho da fonte : 25 px ;
+		footer p{
+			text-align:right;
+			font-weight:bold;
+			font-size:25px;
 			}
 	
-		seção {
-			flutuar : esquerda;
-			largura :  73,5 % ;
+		section {
+			float: left;
+			width: 73.5%;
 			}
 			
-		aparte {
-			flutuar : certo;
-			largura :  25 % ;
-			padding-left :  20 px ;
+		aside {
+			float:right;
+			width: 25%;
+			padding-left: 20px;
 			}
 			
-		. card {
-			cor de fundo : branco;
-			preenchimento :  20 px ;
-			margem superior :  20 px ;
+		.card {
+			background-color: white;
+			padding: 20px;
+			margin-top: 20px;
 			}
 
 			
-		tela @media e ( largura máxima :  768 px ) {
-			seção , à parte {
-				largura :  100 % ;
-				float : nenhum;
+		@media screen and (max-width: 768px){
+			section,aside{
+				width: 100%;
+				float: none;
 				}
 				}
-		</style>
+			
+			
+</style>
+
+
  </head>
   <body>
 
@@ -163,7 +166,7 @@
 				<img src ="imgcentro2.png" 
 				alt= "imagem" width="100%">
 				
-				<p style="font:16px Helveticabold; font-size; 14px; color:black">Sobre Exposições</p>
+				<p style="font:16px Helvetica bold; font-size; 14px; color:black">Sobre Exposições</p>
 				<p style="font:16px Helvetica bold; font-size; 14px; color:black">Aprecie grandes exposições Artísticas Clássicas, Modernas e Contemprorâneas. Em "Exposições" você encontrará algumas das mais belas e famosas obras artísitcas e históricas, como a Monalisa de Leonardo Da Vinci e relíquias egípcias.</p>
 
 			</article>
@@ -180,10 +183,6 @@
 
 		</aside>
 
-		
-		
-		
-		
 		<aside class= "card" >
 			<h3> Publicações Populares</h3>
 			<a href ="file:///C:/Users/Usu%C3%A1rio/Documents/Projetos%20HTML_Jo%C3%A3oMarcos/Atividade03/index2.html" target="_self"><img src ="monalisa.jpg" alt="Publicações Populares" width= "100%"></a>
@@ -193,7 +192,6 @@
 			<a href ="file:///C:/Users/Usu%C3%A1rio/Documents/Projetos%20HTML_Jo%C3%A3oMarcos/Atividade03/index5.html" target="_self"><img src ="news.jpg" alt="Publicações Populares" width= "100%"></a>
 
 
-		</aside>
 		</aside>
 
 		<aside class= "card" >
