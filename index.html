@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+
+ <html lang+"pt-br">
+
+ <head>
+	<title> Art Gallery_Home</title
+	<meta charset=utf-8">
+	<meta name= "Viewport" content ='widht=device-width, initial-scale=1'>
+	
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		
+		body{
+			padding: 8px;
+			font:Garamond, Garamond, sans-serif;
+			background:#ddd
+
+		}
+		
+		header{
+			text-align: center;
+			background-color: rgb(255, 117, 26);
+			padding: 30px;
+		}
+			
+		
+		header h1{
+		font-size: 50px;
+		color: white;
+		}
+		
+		nav ul {
+			list-style-type:none;
+			background: black;
+			overflow:hidden;
+			margin:0;
+			padding:0;
+			transition: background-color 2s;
+		}
+		
+		nav	 a{
+			color: white;
+			text-decoration:none;
+			padding: 16px;
+			display:block;
+			transition:background-color 1.5s;
+			widht: 100%;
+
+
+			}
+		nav dt {
+			float: left;
+		}
+				
+		nav li {
+			float: right;
+		}
+			
+		nav a:hover{
+			background-color: white;
+			color:rgb(255, 117, 26); 
+			}
+			
+
+		.row{
+			display:table;
+			
+		}		
+			
+
+
+		footer {
+		padding:20px;
+		background:black;
+		color: white;
+		margin-top: 20px;
+		display: table;
+		width: 100%;
+		}
+		
+		footer dl{
+			display: table-cell;
+			}
+
+		footer dt{
+			font-weight: bold;
+		}
+		
+		footer dd{
+			margin-left:0;
+			}
+			
+		footer p{
+			text-align:right;
+			font-weight:bold;
+			font-size:25px;
+			}
+	
+		section {
+			float: left;
+			width: 73.5%;
+			}
+			
+		aside {
+			float:right;
+			width: 25%;
+			padding-left: 20px;
+			}
+			
+		.card {
+			background-color: white;
+			padding: 20px;
+			margin-top: 20px;
+			}
+
+			
+		@media screen and (max-width: 768px){
+			section,aside{
+				width: 100%;
+				float: none;
+				}
+				}
+
+			
+			
+	</style>
+
+
+ </head>
+  <body>
+
+ <header>
+	<h1>Galeria De Arts</h1>
+ </header>
+
+	<nav>
+		<ul>	
+	<dt><a  href="index.html">Home</a></li>
+	<dt><a  href="file:///C:/Users/Usu%C3%A1rio/Desktop/Meu%20Site/index2.html">Obras</a></dt>
+	<dt><a href="file:///C:/Users/Usu%C3%A1rio/Desktop/Meu%20Site/index4.html">Exposições</a></dt>
+	<li><a  href="file:///C:/Users/Usu%C3%A1rio/Desktop/Meu%20Site/index5.html">News Art</a></li>
+		</ul>
+
+
+	</nav>
+	<div class= "row" >
+		<section>
+
+			
+			<article class= "card" >
+				<h2>Grandes Artistas e Obras</h2>
+				<h5>Descubra Grandes artistas, aprecie incríveis obras e explore a arte, 10 de Maio de 2021.</h5>
+				<img src ="imgcentro1.png" 
+				alt= "imagem" width= "100%">
+				<p style="font:16px Helvetica bold; font-size; 14px; color:black">Sobre Artistas e Obras</p>
+				<p style="font:16px Helvetica bold; font-size; 14px; color:black">Descubra Grandes artistas, aprecie incríveis obras e explore a arte. Em "Obras" você encontrará algumas das mais belas e famosas da contemporaneidade e clássicas, como a Monalisa de Leonardo Da Vinci e as incríveis Arts Comics de Alex Ross. E em "Artistas" você encontrará alguns artistas incríveis de diversos estilos.</p>
+
+
+			</article>
+			
+			<article class= "card" >
+				<h2>Exposições Históricas</h2>
+				<h5>Embarque nas grandes exposições virtuais artísticas e descubra Grandes obras, 10 de Maio de 2021.</h5>
+				<img src ="imgcentro2.png" 
+				alt= "imagem" width="100%">
+				
+				<p style="font:16px Helvetica bold; font-size; 14px; color:black">Sobre Exposições</p>
+				<p style="font:16px Helvetica bold; font-size; 14px; color:black">Aprecie grandes exposições Artísticas Clássicas, Modernas e Contemprorâneas. Em "Exposições" você encontrará algumas das mais belas e famosas obras artísitcas e históricas, como a Monalisa de Leonardo Da Vinci e relíquias egípcias.</p>
+
+			</article>
+			
+		</section>
+
+		<aside class= "card" >
+			<h3>Sobre mim</h3>
+			<img src ="logoifes.jpg"
+				alt="imagem sobre mim" width= "100%">
+				<p style="font:16px Helvetica bold; font-size; 14px; color:black">Site criado e desenvolvido pelo aluno João Marcos dos Santos Silva, estudante do IFES Campus Colatina.</p>
+				
+				
+
+		</aside>
+
+		<aside class= "card" >
+			<h3> Publicações Populares</h3>
+			<a href ="file:///C:/Users/Usu%C3%A1rio/Documents/Projetos%20HTML_Jo%C3%A3oMarcos/Atividade03/index2.html" target="_self"><img src ="img02/monalisa.jpg" alt="Publicações Populares" width= "100%"></a>
+			
+			<a href ="file:///C:/Users/Usu%C3%A1rio/Documents/Projetos%20HTML_Jo%C3%A3oMarcos/Atividade03/index4.html" target="_self"><img src ="img02/frida.jpg" alt="Publicações Populares" width= "100%"></a>
+
+			<a href ="file:///C:/Users/Usu%C3%A1rio/Documents/Projetos%20HTML_Jo%C3%A3oMarcos/Atividade03/index5.html" target="_self"><img src ="img02/news.jpg" alt="Publicações Populares" width= "100%"></a>
+
+
+		</aside>
+
+		<aside class= "card" >
+			<h3> Me siga</h3>
+				<a href ="https://www.instagram.com/accounts/login/?hl=pt-br" target="_blank">Instagram<a/>
+				<a href ="https://br.pinterest.com/" target="_blank">Pinterest<a/>
+				<a href ="https://pt-br.facebook.com/" target="_blank">Facebook<a/>
+				<a href ="https://www.youtube.com/" target="_blank">Youtube<a/>
+
+
+				
+			
+		</aside>
+	</div>
+
+<footer>
+		<dl>
+	<dt>E-mail </dt>
+	<dd> galeriaArts@gmail.com</dd>
+	<br/>
+	<dt> Telefone</dt>
+	<dd> (00) 0 0000-0000</dd>
+	<br/>
+	<dd>© 2021, Galeria de Arts </dd>
+	<p>Galeria de Arts </p>
+		</dl>
+
+</footer>
+
+
+
+ </body>
+ </html>
+
+
+
